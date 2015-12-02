@@ -2,7 +2,11 @@
   (ProjectVersion "19981106")
   (ProjectType "PCB")
   (Folder "Design Resources"
-    (Folder "Library")
+    (Folder "Library"
+      (File "d:\project\circuit\orcad\lib\title.olb"
+        (Type "Schematic Library"))
+      (File ".\library1.olb"
+        (Type "Schematic Library")))
     (File ".\bsz_02v4.dsn"
       (Type "Schematic Design"))
     (BuildFileAddedOrDeleted "x")
@@ -44,10 +48,36 @@
     (DRC_Visible_Power_pins "TRUE")
     (DRC_Report_Unused_Part_Packages "TRUE")
     (DRC_Check_Name_Prop_For_HierBlocks "TRUE")
-    (DRC_Run_Physical_Custom_DRC "FALSE"))
+    (DRC_Run_Physical_Custom_DRC "FALSE")
+    ("Create Allegro Netlist" "TRUE")
+    ("Allegro Netlist Directory" "pcb")
+    ("View Allegro Netlist Files" "FALSE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "FALSE")
+    ("Allegro Netlist Output Board File" "allegro\BSZ_02V4.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Output Warnings" "TRUE")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "64")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE")
+    (Netlist_TAB "0"))
   (Folder "Outputs"
     (File ".\bsz_02v4.drc"
-      (Type "Report")))
+      (Type "Report"))
+    (File ".\pcb\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\pcb\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\pcb\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
   (GlobalState
     (FileView
@@ -55,14 +85,18 @@
       (Path "Design Resources" "d:\project\circuit\bsz\02v4\bsz_02v4.dsn")
       (Path "Design Resources" "d:\project\circuit\bsz\02v4\bsz_02v4.dsn"
          "SCHEMATIC1")
+      (Path "Design Resources" "d:\project\circuit\bsz\02v4\bsz_02v4.dsn"
+         "Design Cache")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library"
+         "d:\project\circuit\bsz\02v4\library1.olb")
       (Path "Outputs")
-      (Select "Design Resources" "d:\project\circuit\bsz\02v4\bsz_02v4.dsn"
-         "SCHEMATIC1" "PAGE1"))
+      (Select "Design Resources" "d:\project\circuit\bsz\02v4\bsz_02v4.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 893"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 230 0 893"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
@@ -88,7 +122,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -4 -28 110 1586 135 634")
-        (Scroll "-319 -8")
+        (Scroll "-329 -8")
         (Zoom "58")
         (Occurrence "/"))
       (Path "D:\PROJECT\CIRCUIT\BSZ\02V4\BSZ_02V4.DSN")
@@ -98,8 +132,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -4 -28 176 1652 216 715")
-        (Scroll "-244 0")
-        (Zoom "58")
+        (Scroll "0 36")
+        (Zoom "116")
         (Occurrence "/"))
       (Path "D:\PROJECT\CIRCUIT\BSZ\02V4\BSZ_02V4.DSN")
       (Schematic "SCHEMATIC1")
@@ -116,6 +150,29 @@
       (Page "PAGE5")))
   (MPSSessionName "Shcheblykin")
   (PartMRUSelector
+    (LMC6762
+      (FullPartName "LMC6762.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\IC.OLB")
+      (DeviceIndex "0"))
+    (BAT54S
+      (FullPartName "BAT54S.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (LM2902DRG3_M
+      (FullPartName "LM2902DRG3_M.Normal")
+      (LibraryName "D:\PROJECT\CIRCUIT\BSZ\02V4\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (AD8542ARZ
+      (FullPartName "AD8542ARZ.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\IC.OLB")
+      (DeviceIndex "0"))
+    (TP
+      (FullPartName "TP.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (BOT_1_NO_SIGN
+      (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\TITLE.OLB")
+      (DeviceIndex "0"))
     (OFFPAGELEFT-L
       (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
