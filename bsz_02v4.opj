@@ -96,24 +96,14 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 230 0 893"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 893"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -28 176 1648 216 711")
-        (Scroll "-242 0")
-        (Zoom "58")
-        (Occurrence "/"))
-      (Path "D:\PROJECT\CIRCUIT\BSZ\02V4\BSZ_02V4.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "PAGE1"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -4 -28 88 1564 108 607")
-        (Scroll "-244 0")
-        (Zoom "58")
+        (Placement "44 0 1 -1 -1 -4 -28 22 1463 27 526")
+        (Scroll "917 1110")
+        (Zoom "152")
         (Occurrence "/"))
       (Path "D:\PROJECT\CIRCUIT\BSZ\02V4\BSZ_02V4.DSN")
       (Schematic "SCHEMATIC1")
@@ -121,19 +111,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -28 110 1586 135 634")
-        (Scroll "-329 -8")
-        (Zoom "58")
-        (Occurrence "/"))
-      (Path "D:\PROJECT\CIRCUIT\BSZ\02V4\BSZ_02V4.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "PAGE3"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -4 -28 176 1652 216 715")
-        (Scroll "0 36")
-        (Zoom "116")
+        (Placement "44 0 1 -1 -1 -4 -28 110 1551 135 634")
+        (Scroll "917 477")
+        (Zoom "152")
         (Occurrence "/"))
       (Path "D:\PROJECT\CIRCUIT\BSZ\02V4\BSZ_02V4.DSN")
       (Schematic "SCHEMATIC1")
@@ -141,15 +121,42 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -28 0 1476 0 499")
-        (Scroll "-244 0")
-        (Zoom "58")
+        (Placement "44 0 1 -1 -1 -4 -28 132 1573 162 661")
+        (Scroll "-78 408")
+        (Zoom "76")
+        (Occurrence "/"))
+      (Path "D:\PROJECT\CIRCUIT\BSZ\02V4\BSZ_02V4.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -28 0 1507 0 346")
+        (Scroll "-251 229")
+        (Zoom "59")
+        (Occurrence "/"))
+      (Path "D:\PROJECT\CIRCUIT\BSZ\02V4\BSZ_02V4.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE3"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -4 -28 22 1529 27 373")
+        (Scroll "-228 160")
+        (Zoom "69")
         (Occurrence "/"))
       (Path "D:\PROJECT\CIRCUIT\BSZ\02V4\BSZ_02V4.DSN")
       (Schematic "SCHEMATIC1")
       (Page "PAGE5")))
   (MPSSessionName "Shcheblykin")
   (PartMRUSelector
+    (OFFPAGELEFT-L
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (ACPL-W483
+      (FullPartName "ACPL-W483.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\IC.OLB")
+      (DeviceIndex "0"))
     (LMC6762
       (FullPartName "LMC6762.Normal")
       (LibraryName "X:\LIB\SYMBOLS\IC.OLB")
@@ -172,9 +179,6 @@
       (DeviceIndex "0"))
     (BOT_1_NO_SIGN
       (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\TITLE.OLB")
-      (DeviceIndex "0"))
-    (OFFPAGELEFT-L
-      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
     (OFFPAGELEFT-R
       (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
