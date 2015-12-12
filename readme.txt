@@ -1,4 +1,4 @@
-Плата BSZ_XXvX
+﻿Плата BSZ_XXvX
 
 02v4
 Код ПП: 3.140.xxx
@@ -12,3 +12,6 @@
 35мкм  PWR
 0.36мм e=4.5
 18мкм  BOTTOM
+
+Оптрон: 
+Pin 2 needs to be connected to LED common.
