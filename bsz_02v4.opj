@@ -82,31 +82,74 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" "Z:\Текущие версии железа\BSZ\02v4\bsz_02v4.dsn")
-      (Path "Design Resources" "Z:\Текущие версии железа\BSZ\02v4\bsz_02v4.dsn"
+      (Path "Design Resources" "d:\projects\cadence\bsz\bsz_02v4.dsn")
+      (Path "Design Resources" "d:\projects\cadence\bsz\bsz_02v4.dsn"
          "SCHEMATIC1")
       (Path "Design Resources" "Library")
       (Path "Outputs")
-      (Select "Design Resources"
-         "Z:\Текущие версии железа\BSZ\02v4\bsz_02v4.dsn" "SCHEMATIC1" "INPUTS"))
+      (Select "Design Resources" "d:\projects\cadence\bsz\bsz_02v4.dsn"
+         "SCHEMATIC1" "MAN1_PUSK_BI"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 935"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 233"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -29 81 1428 84 698")
-        (Scroll "0 100")
-        (Zoom "100")
+        (Placement "44 0 1 -1 -1 -4 -29 189 1532 196 806")
+        (Scroll "-52 0")
+        (Zoom "73")
         (Occurrence "/"))
-      (Path "Z:\ТЕКУЩИЕ ВЕРСИИ ЖЕЛЕЗА\BSZ\02V4\BSZ_02V4.DSN")
+      (Path "D:\PROJECTS\CADENCE\BSZ\BSZ_02V4.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "INPUTS")))
+      (Page "CPLD"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -29 216 1563 224 838")
+        (Scroll "159 128")
+        (Zoom "146")
+        (Occurrence "/"))
+      (Path "D:\PROJECTS\CADENCE\BSZ\BSZ_02V4.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "INPUTS"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -29 0 1347 0 614")
+        (Scroll "1614 2570")
+        (Zoom "294")
+        (Occurrence "/"))
+      (Path "D:\PROJECTS\CADENCE\BSZ\BSZ_02V4.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "MAN1_PUSK_BI"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -29 27 1374 28 642")
+        (Scroll "-54 0")
+        (Zoom "73")
+        (Occurrence "/"))
+      (Path "D:\PROJECTS\CADENCE\BSZ\BSZ_02V4.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "OUTPUTS"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -29 216 1563 224 838")
+        (Scroll "822 388")
+        (Zoom "146")
+        (Occurrence "/"))
+      (Path "D:\PROJECTS\CADENCE\BSZ\BSZ_02V4.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PWR_DIN")))
   (MPSSessionName "vershinin")
   (PartMRUSelector
+    (VCC
+      (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\_SYMBOLS.OLB")
+      (DeviceIndex "0"))
     (ACPL-W343
       (FullPartName "ACPL-W343.Normal")
       (LibraryName "X:\LIB\SYMBOLS\IC.OLB")
@@ -155,9 +198,6 @@
       (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\_SYMBOLS.OLB")
       (DeviceIndex "0"))
     (GND
-      (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\_SYMBOLS.OLB")
-      (DeviceIndex "0"))
-    (VCC
       (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\_SYMBOLS.OLB")
       (DeviceIndex "0")))
   (ISPCBBASICLICENSE "false"))
