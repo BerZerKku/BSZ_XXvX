@@ -98,7 +98,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -8 -30 50 1363 50 601")
-        (Scroll "0 50")
+        (Scroll "0 365")
         (Zoom "100")
         (Occurrence "/"))
       (Path "C:\FEDYA\BSZ\BSZ_02V4.DSN")
@@ -106,6 +106,10 @@
       (Page "CPLD")))
   (MPSSessionName "f.sochinsky")
   (PartMRUSelector
+    (OSC_SMD
+      (FullPartName "OSC_SMD.Normal")
+      (LibraryName "Z:\LIB\SYMBOLS\DISCRETE.OLB")
+      (DeviceIndex "0"))
     (SN74LVC8T245
       (FullPartName "SN74LVC8T245.Normal")
       (LibraryName "Z:\LIB\SYMBOLS\IC.OLB")
