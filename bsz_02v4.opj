@@ -107,7 +107,7 @@
       (Path "Design Resources" "Library")
       (Path "Outputs")
       (Select "Design Resources" "d:\projects\cadence\bsz\bsz_02v4.dsn"
-         "SCHEMATIC1" "INPUTS"))
+         "SCHEMATIC1"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -138,8 +138,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -4 -29 135 1482 140 754")
-        (Scroll "-202 0")
-        (Zoom "55")
+        (Scroll "47 838")
+        (Zoom "146")
         (Occurrence "/"))
       (Path "D:\PROJECTS\CADENCE\BSZ\BSZ_02V4.DSN")
       (Schematic "SCHEMATIC1")
@@ -158,8 +158,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -4 -29 0 1401 0 460")
-        (Scroll "0 0")
-        (Zoom "100")
+        (Scroll "-193 -8")
+        (Zoom "73")
         (Occurrence "/"))
       (Path "D:\PROJECTS\CADENCE\BSZ\BSZ_02V4.DSN")
       (Schematic "SCHEMATIC1")
