@@ -17,11 +17,11 @@
     (DRC_Scope "0")
     (DRC_Action "0")
     (DRC_Create_Warnings "TRUE")
-    (DRC_View_Output "FALSE")
+    (DRC_View_Output "TRUE")
     (DRC_Preserved_Waived "FALSE")
     (DRC_Run_Electrical_Rules "TRUE")
     (DRC_Run_Physical_Rules "TRUE")
-    (DRC_Report_File "\.")
+    (DRC_Report_File "C:\FEDYA\bsz\1.DRC")
     (DRC_Check_Ports "FALSE")
     (DRC_Check_Off-Page_Connectors "FALSE")
     (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
@@ -94,78 +94,84 @@
       (DisplayName "pstxprt.dat"))
     (File ".\pcb\pstchip.dat"
       (Type "Report")
-      (DisplayName "pstchip.dat")))
+      (DisplayName "pstchip.dat"))
+    (File ".\1.drc"
+      (Type "Report")))
   (Folder "Referenced Projects")
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" "d:\projects\cadence\bsz\bsz_02v4.dsn")
-      (Path "Design Resources" "d:\projects\cadence\bsz\bsz_02v4.dsn"
-         "SCHEMATIC1")
-      (Path "Design Resources" "d:\projects\cadence\bsz\bsz_02v4.dsn"
-         "Design Cache")
+      (Path "Design Resources" ".\bsz_02v4.dsn")
+      (Path "Design Resources" ".\bsz_02v4.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
       (Path "Outputs")
-      (Select "Design Resources" "d:\projects\cadence\bsz\bsz_02v4.dsn"
-         "SCHEMATIC1" "PWR_DIN"))
+      (Select "Design Resources" ".\bsz_02v4.dsn" "SCHEMATIC1" "OUTPUTS"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 935"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 867"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -29 81 1424 84 694")
-        (Scroll "-184 0")
-        (Zoom "57")
+        (Placement "44 0 1 -1 -1 -8 -30 50 1438 50 519")
+        (Scroll "0 396")
+        (Zoom "108")
         (Occurrence "/"))
-      (Path "D:\PROJECTS\CADENCE\BSZ\BSZ_02V4.DSN")
+      (Path "C:\FEDYA\BSZ\BSZ_02V4.DSN")
       (Schematic "SCHEMATIC1")
       (Page "CPLD"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -29 108 1455 112 726")
-        (Scroll "-202 14")
-        (Zoom "55")
+        (Placement "44 0 1 -1 -1 -8 -30 75 1463 75 544")
+        (Scroll "649 0")
+        (Zoom "134")
         (Occurrence "/"))
-      (Path "D:\PROJECTS\CADENCE\BSZ\BSZ_02V4.DSN")
+      (Path "C:\FEDYA\BSZ\BSZ_02V4.DSN")
       (Schematic "SCHEMATIC1")
       (Page "INPUTS"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -29 135 1482 140 754")
-        (Scroll "632 929")
-        (Zoom "146")
+        (Placement "44 0 1 -1 -1 -8 -30 100 1488 100 569")
+        (Scroll "-121 0")
+        (Zoom "67")
         (Occurrence "/"))
-      (Path "D:\PROJECTS\CADENCE\BSZ\BSZ_02V4.DSN")
+      (Path "C:\FEDYA\BSZ\BSZ_02V4.DSN")
       (Schematic "SCHEMATIC1")
       (Page "MAN1_PUSK_BI"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -29 162 1509 168 782")
-        (Scroll "-193 46")
-        (Zoom "73")
+        (Placement "44 0 1 -1 -1 -8 -30 125 1513 125 594")
+        (Scroll "87 330")
+        (Zoom "100")
         (Occurrence "/"))
-      (Path "D:\PROJECTS\CADENCE\BSZ\BSZ_02V4.DSN")
+      (Path "C:\FEDYA\BSZ\BSZ_02V4.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "PWR_DIN"))
+      (Page "OUTPUTS"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -29 0 1456 0 460")
-        (Scroll "226 627")
-        (Zoom "110")
+        (Placement "44 2 3 -1 -1 -8 -30 150 1538 150 619")
+        (Scroll "544 568")
+        (Zoom "134")
         (Occurrence "/"))
-      (Path "D:\PROJECTS\CADENCE\BSZ\BSZ_02V4.DSN")
+      (Path "C:\FEDYA\BSZ\BSZ_02V4.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "OUTPUTS")))
-  (MPSSessionName "vershinin")
+      (Page "PWR_DIN")))
+  (MPSSessionName "f.sochinsky")
   (PartMRUSelector
+    (CAPACITOR
+      (FullPartName "CAPACITOR.Normal")
+      (LibraryName "Z:\LIB\SYMBOLS\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (LM117
+      (FullPartName "LM117.Normal")
+      (LibraryName "Z:\LIB\SYMBOLS\IC.OLB")
+      (DeviceIndex "0"))
     (DIODE
       (FullPartName "DIODE.Normal")
       (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
@@ -173,10 +179,6 @@
     (LMV431AIM5
       (FullPartName "LMV431AIM5.Normal")
       (LibraryName "Z:\LIB\SYMBOLS\IC.OLB")
-      (DeviceIndex "0"))
-    (CAPACITOR
-      (FullPartName "CAPACITOR.Normal")
-      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
       (DeviceIndex "0"))
     (RESISTOR
       (FullPartName "RESISTOR.Normal")
@@ -256,8 +258,5 @@
       (DeviceIndex "0"))
     (0
       (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    ("GND POWER"
-      (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\_SYMBOLS.OLB")
       (DeviceIndex "0")))
   (ISPCBBASICLICENSE "false"))
