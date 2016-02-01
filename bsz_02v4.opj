@@ -11,7 +11,7 @@
       (Type "Schematic Design"))
     (BuildFileAddedOrDeleted "x")
     (CompileFileAddedOrDeleted "x")
-    (DOCKED "TRUE")
+    (DOCKED "FALSE")
     (DOCKING_POSITION "59420")
     (NoModify)
     (DRC_Scope "0")
@@ -101,74 +101,115 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" "d:\projects\cadence\bsz\bsz_02v4.dsn")
-      (Path "Design Resources" "d:\projects\cadence\bsz\bsz_02v4.dsn"
-         "SCHEMATIC1")
-      (Path "Design Resources" "Library")
+      (Path "Design Resources" ".\bsz_02v4.dsn")
+      (Path "Design Resources" ".\bsz_02v4.dsn" "SCHEMATIC1")
       (Path "Outputs")
-      (Select "Design Resources" "d:\projects\cadence\bsz\bsz_02v4.dsn"
-         "SCHEMATIC1"))
+      (Select "Design Resources" ".\bsz_02v4.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 935"))
+        (Placement "44 2 3 -1 -1 -8 -30 175 1001 175 726"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -29 81 1428 84 698")
-        (Scroll "210 0")
-        (Zoom "114")
+        (Placement "44 0 1 -1 -1 -8 -30 50 1297 50 601")
+        (Scroll "50 0")
+        (Zoom "140")
         (Occurrence "/"))
-      (Path "D:\PROJECTS\CADENCE\BSZ\BSZ_02V4.DSN")
+      (Path "X:\BSZ\BSZ_02V4.DSN")
       (Schematic "SCHEMATIC1")
       (Page "CPLD"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -29 108 1455 112 726")
-        (Scroll "0 411")
-        (Zoom "110")
+        (Placement "44 0 1 -1 -1 -8 -30 75 1422 75 626")
+        (Scroll "-76 0")
+        (Zoom "70")
         (Occurrence "/"))
-      (Path "D:\PROJECTS\CADENCE\BSZ\BSZ_02V4.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "MAN1_PUSK_BI"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -4 -29 135 1482 140 754")
-        (Scroll "47 838")
-        (Zoom "146")
-        (Occurrence "/"))
-      (Path "D:\PROJECTS\CADENCE\BSZ\BSZ_02V4.DSN")
+      (Path "X:\BSZ\BSZ_02V4.DSN")
       (Schematic "SCHEMATIC1")
       (Page "OUTPUTS"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -29 162 1509 168 782")
-        (Scroll "-54 0")
-        (Zoom "73")
+        (Placement "44 0 1 -1 -1 -8 -30 100 505 100 660")
+        (Scroll "429 484")
+        (Zoom "140")
         (Occurrence "/"))
-      (Path "D:\PROJECTS\CADENCE\BSZ\BSZ_02V4.DSN")
+      (Path "X:\BSZ\BSZ_02V4.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "INPUTS"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 125 530 125 685")
+        (Scroll "672 2436")
+        (Zoom "280")
+        (Occurrence "/"))
+      (Path "X:\BSZ\BSZ_02V4.DSN")
       (Schematic "SCHEMATIC1")
       (Page "PWR_DIN"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -29 0 1401 0 460")
-        (Scroll "-193 -8")
-        (Zoom "73")
+        (Placement "44 0 1 -1 -1 -8 -30 150 555 150 710")
+        (Scroll "2744 1487")
+        (Zoom "280")
         (Occurrence "/"))
-      (Path "D:\PROJECTS\CADENCE\BSZ\BSZ_02V4.DSN")
+      (Path "X:\BSZ\BSZ_02V4.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "INPUTS")))
-  (MPSSessionName "vershinin")
+      (Page "MAN1_PUSK_BI")))
+  (MPSSessionName "f.sochinsky")
   (PartMRUSelector
+    (RESISTOR
+      (FullPartName "RESISTOR.Normal")
+      (LibraryName "Z:\LIB\SYMBOLS\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (SHOTTKY
+      (FullPartName "SHOTTKY.Normal")
+      (LibraryName "Z:\LIB\SYMBOLS\DISCRETE.OLB")
+      (DeviceIndex "0"))
     (CAPACITOR
       (FullPartName "CAPACITOR.Normal")
-      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
+      (LibraryName "Z:\LIB\SYMBOLS\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (AD7894ARZ
+      (FullPartName "AD7894ARZ.Normal")
+      (LibraryName "Z:\LIB\SYMBOLS\IC.OLB")
+      (DeviceIndex "0"))
+    (ST901T
+      (FullPartName "ST901T.Normal")
+      (LibraryName "Z:\LIB\SYMBOLS\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (Diod_Shottky_Dual_ComCath
+      (FullPartName "Diod_Shottky_Dual_ComCath.Normal")
+      (LibraryName "Z:\LIB\SYMBOLS\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (INDUCTOR
+      (FullPartName "INDUCTOR.Normal")
+      (LibraryName "Z:\LIB\SYMBOLS\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (LM2670S-ADJ
+      (FullPartName "LM2670S-ADJ.Normal")
+      (LibraryName "Z:\LIB\SYMBOLS\IC.OLB")
+      (DeviceIndex "0"))
+    (LP3966ES-ADJ
+      (FullPartName "LP3966ES-ADJ.Normal")
+      (LibraryName "Z:\LIB\SYMBOLS\IC.OLB")
+      (DeviceIndex "0"))
+    (REF192ESZ
+      (FullPartName "REF192ESZ.Normal")
+      (LibraryName "Z:\LIB\SYMBOLS\IC.OLB")
+      (DeviceIndex "0"))
+    (LED
+      (FullPartName "LED.Normal")
+      (LibraryName "Z:\LIB\SYMBOLS\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (SUPRESSOR_POL
+      (FullPartName "SUPRESSOR_POL.Normal")
+      (LibraryName "Z:\LIB\SYMBOLS\DISCRETE.OLB")
       (DeviceIndex "0"))
     (LM117
       (FullPartName "LM117.Normal")
@@ -182,10 +223,6 @@
       (FullPartName "LMV431AIM5.Normal")
       (LibraryName "Z:\LIB\SYMBOLS\IC.OLB")
       (DeviceIndex "0"))
-    (RESISTOR
-      (FullPartName "RESISTOR.Normal")
-      (LibraryName "Z:\LIB\SYMBOLS\DISCRETE.OLB")
-      (DeviceIndex "0"))
     (VCC
       (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\_SYMBOLS.OLB")
       (DeviceIndex "0"))
@@ -197,21 +234,9 @@
       (FullPartName "SN74LVC8T245.Normal")
       (LibraryName "Z:\LIB\SYMBOLS\IC.OLB")
       (DeviceIndex "0"))
-    (INDUCTOR
-      (FullPartName "INDUCTOR.Normal")
-      (LibraryName "Z:\LIB\SYMBOLS\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (SHOTTKY
-      (FullPartName "SHOTTKY.Normal")
-      (LibraryName "Z:\LIB\SYMBOLS\DISCRETE.OLB")
-      (DeviceIndex "0"))
     (LM2733
       (FullPartName "LM2733.Normal")
       (LibraryName "Z:\LIB\SYMBOLS\IC.OLB")
-      (DeviceIndex "0"))
-    (SUPRESSOR_POL
-      (FullPartName "SUPRESSOR_POL.Normal")
-      (LibraryName "Z:\LIB\SYMBOLS\DISCRETE.OLB")
       (DeviceIndex "0"))
     (LM1117
       (FullPartName "LM1117.Normal")
@@ -235,30 +260,5 @@
     (LMC6762
       (FullPartName "LMC6762.Normal")
       (LibraryName "X:\LIB\SYMBOLS\IC.OLB")
-      (DeviceIndex "0"))
-    (BAT54S
-      (FullPartName "BAT54S.Normal")
-      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (LM2902DRG3_M
-      (FullPartName "LM2902DRG3_M.Normal")
-      (LibraryName "D:\PROJECT\CIRCUIT\BSZ\02V4\LIBRARY1.OLB")
-      (DeviceIndex "0"))
-    (AD8542ARZ
-      (FullPartName "AD8542ARZ.Normal")
-      (LibraryName "X:\LIB\SYMBOLS\IC.OLB")
-      (DeviceIndex "0"))
-    (TP
-      (FullPartName "TP.Normal")
-      (LibraryName "X:\LIB\SYMBOLS\CONNECTOR.OLB")
-      (DeviceIndex "0"))
-    (BOT_1_NO_SIGN
-      (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\TITLE.OLB")
-      (DeviceIndex "0"))
-    (OFFPAGELEFT-R
-      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (0
-      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0")))
   (ISPCBBASICLICENSE "false"))
