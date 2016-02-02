@@ -101,10 +101,10 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\bsz_02v4.dsn")
-      (Path "Design Resources" ".\bsz_02v4.dsn" "SCHEMATIC1")
+      (Path "Design Resources" "x:\bsz\bsz_02v4.dsn")
+      (Path "Design Resources" "x:\bsz\bsz_02v4.dsn" "SCHEMATIC1")
       (Path "Outputs")
-      (Select "Design Resources" ".\bsz_02v4.dsn"))
+      (Select "Design Resources" "x:\bsz\bsz_02v4.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -115,7 +115,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 50 1297 50 601")
-        (Scroll "50 0")
+        (Scroll "413 790")
         (Zoom "140")
         (Occurrence "/"))
       (Path "X:\BSZ\BSZ_02V4.DSN")
@@ -135,8 +135,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 100 505 100 660")
-        (Scroll "429 484")
-        (Zoom "140")
+        (Scroll "0 0")
+        (Zoom "70")
         (Occurrence "/"))
       (Path "X:\BSZ\BSZ_02V4.DSN")
       (Schematic "SCHEMATIC1")
@@ -145,8 +145,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 125 530 125 685")
-        (Scroll "672 2436")
-        (Zoom "280")
+        (Scroll "0 0")
+        (Zoom "70")
         (Occurrence "/"))
       (Path "X:\BSZ\BSZ_02V4.DSN")
       (Schematic "SCHEMATIC1")
@@ -155,14 +155,34 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 150 555 150 710")
-        (Scroll "2744 1487")
-        (Zoom "280")
+        (Scroll "0 0")
+        (Zoom "70")
         (Occurrence "/"))
       (Path "X:\BSZ\BSZ_02V4.DSN")
       (Schematic "SCHEMATIC1")
       (Page "MAN1_PUSK_BI")))
   (MPSSessionName "f.sochinsky")
   (PartMRUSelector
+    (CONN5
+      (FullPartName "CONN5.Normal")
+      (LibraryName "Z:\LIB\SYMBOLS\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (CONN3_VERT
+      (FullPartName "CONN3_VERT.Normal")
+      (LibraryName "Z:\LIB\SYMBOLS\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (CONN2
+      (FullPartName "CONN2.Normal")
+      (LibraryName "Z:\LIB\SYMBOLS\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (JUMPER
+      (FullPartName "JUMPER.Normal")
+      (LibraryName "Z:\LIB\SYMBOLS\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (TP
+      (FullPartName "TP.Normal")
+      (LibraryName "Z:\LIB\SYMBOLS\CONNECTOR.OLB")
+      (DeviceIndex "0"))
     (RESISTOR
       (FullPartName "RESISTOR.Normal")
       (LibraryName "Z:\LIB\SYMBOLS\DISCRETE.OLB")
@@ -241,24 +261,5 @@
     (LM1117
       (FullPartName "LM1117.Normal")
       (LibraryName "Z:\LIB\SYMBOLS\IC.OLB")
-      (DeviceIndex "0"))
-    (EPM240T100C5N
-      (FullPartName "EPM240T100C5N.Normal")
-      (LibraryName "Z:\LIB\SYMBOLS\IC.OLB")
-      (DeviceIndex "0"))
-    (ACPL-W343
-      (FullPartName "ACPL-W343.Normal")
-      (LibraryName "X:\LIB\SYMBOLS\IC.OLB")
-      (DeviceIndex "0"))
-    (OFFPAGELEFT-L
-      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (ACPL-W483
-      (FullPartName "ACPL-W483.Normal")
-      (LibraryName "X:\LIB\SYMBOLS\IC.OLB")
-      (DeviceIndex "0"))
-    (LMC6762
-      (FullPartName "LMC6762.Normal")
-      (LibraryName "X:\LIB\SYMBOLS\IC.OLB")
       (DeviceIndex "0")))
   (ISPCBBASICLICENSE "false"))
