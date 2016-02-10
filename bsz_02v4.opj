@@ -21,7 +21,7 @@
     (DRC_Preserved_Waived "FALSE")
     (DRC_Run_Electrical_Rules "TRUE")
     (DRC_Run_Physical_Rules "TRUE")
-    (DRC_Report_File "C:\FEDYA\bsz\1.DRC")
+    (DRC_Report_File "D:\projects\cadence\BSZ\pcb\bsz.DRC")
     (DRC_Check_Ports "FALSE")
     (DRC_Check_Off-Page_Connectors "FALSE")
     (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
@@ -82,7 +82,19 @@
     (width_pages "100")
     (width_start "80")
     (width_End "80")
-    (Board_sim_option "VHDL_flow"))
+    (Board_sim_option "VHDL_flow")
+    (GATE_&_PIN_SWAP_Scope "0")
+    (GATE_&_PIN_SWAP_File_Name "D:\PROJECTS\CADENCE\BSZ\BSZ_02V4.SWP")
+    (Backannotation_TAB "0")
+    ("Allegro Backannotation Run Genfeed" "FALSE")
+    ("Allegro Backannotation Board File"
+       "D:\projects\cadence\BSZ\pcb\BSZ_7.brd")
+    ("Allegro Backannotation Netlist Directory" "pcb")
+    ("Allegro Backannotation Output File" "pcb\BSZ_02V4.swp")
+    ("Allegro Backannotation Update Schematic" "TRUE")
+    ("Allegro Backannotation View Output" "FALSE")
+    ("Allegro Setup Configuration File"
+       "C:\Cadence\SPB_16.6\tools/capture/allegro.cfg"))
   (Folder "Outputs"
     (File ".\bsz_02v4.drc"
       (Type "Report"))
@@ -96,6 +108,20 @@
       (Type "Report")
       (DisplayName "pstchip.dat"))
     (File ".\1.drc"
+      (Type "Report"))
+    (File ".\pcb\pinview.dat"
+      (Type "Report")
+      (DisplayName "pinView.dat"))
+    (File ".\pcb\netview.dat"
+      (Type "Report")
+      (DisplayName "netView.dat"))
+    (File ".\pcb\funcview.dat"
+      (Type "Report")
+      (DisplayName "funcView.dat"))
+    (File ".\pcb\compview.dat"
+      (Type "Report")
+      (DisplayName "compView.dat"))
+    (File ".\pcb\bsz.drc"
       (Type "Report")))
   (Folder "Referenced Projects")
   (GlobalState
@@ -104,6 +130,8 @@
       (Path "Design Resources" "d:\projects\cadence\bsz\bsz_02v4.dsn")
       (Path "Design Resources" "d:\projects\cadence\bsz\bsz_02v4.dsn"
          "SCHEMATIC1")
+      (Path "Design Resources" "d:\projects\cadence\bsz\bsz_02v4.dsn"
+         "Design Cache")
       (Path "Outputs")
       (Select "Design Resources" "d:\projects\cadence\bsz\bsz_02v4.dsn"))
     (HierarchyView)
@@ -116,8 +144,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -4 -29 81 1684 84 698")
-        (Scroll "0 464")
-        (Zoom "220")
+        (Scroll "2397 1110")
+        (Zoom "292")
         (Occurrence "/"))
       (Path "D:\PROJECTS\CADENCE\BSZ\BSZ_02V4.DSN")
       (Schematic "SCHEMATIC1")
@@ -156,7 +184,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -4 -29 189 1792 196 810")
-        (Scroll "83 322")
+        (Scroll "0 146")
         (Zoom "100")
         (Occurrence "/"))
       (Path "D:\PROJECTS\CADENCE\BSZ\BSZ_02V4.DSN")
