@@ -132,8 +132,7 @@
          "SCHEMATIC1")
       (Path "Design Resources" "d:\projects\cadence\bsz\bsz_02v4.dsn"
          "Design Cache")
-      (Path "Outputs")
-      (Select "Design Resources" "d:\projects\cadence\bsz\bsz_02v4.dsn"))
+      (Path "Outputs"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -144,8 +143,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -4 -29 81 1684 84 698")
-        (Scroll "2397 1110")
-        (Zoom "292")
+        (Scroll "1335 176")
+        (Zoom "220")
         (Occurrence "/"))
       (Path "D:\PROJECTS\CADENCE\BSZ\BSZ_02V4.DSN")
       (Schematic "SCHEMATIC1")
@@ -154,8 +153,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -4 -29 108 1711 112 726")
-        (Scroll "0 247")
-        (Zoom "100")
+        (Scroll "0 0")
+        (Zoom "110")
         (Occurrence "/"))
       (Path "D:\PROJECTS\CADENCE\BSZ\BSZ_02V4.DSN")
       (Schematic "SCHEMATIC1")
@@ -164,8 +163,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -4 -29 135 1738 140 754")
-        (Scroll "2981 308")
-        (Zoom "292")
+        (Scroll "454 634")
+        (Zoom "146")
         (Occurrence "/"))
       (Path "D:\PROJECTS\CADENCE\BSZ\BSZ_02V4.DSN")
       (Schematic "SCHEMATIC1")
@@ -174,8 +173,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -4 -29 162 1765 168 782")
-        (Scroll "814 756")
-        (Zoom "200")
+        (Scroll "1790 1784")
+        (Zoom "220")
         (Occurrence "/"))
       (Path "D:\PROJECTS\CADENCE\BSZ\BSZ_02V4.DSN")
       (Schematic "SCHEMATIC1")
@@ -184,7 +183,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -4 -29 189 1792 196 810")
-        (Scroll "0 146")
+        (Scroll "0 300")
         (Zoom "100")
         (Occurrence "/"))
       (Path "D:\PROJECTS\CADENCE\BSZ\BSZ_02V4.DSN")
@@ -192,6 +191,14 @@
       (Page "MAN1_PUSK_BI")))
   (MPSSessionName "vershinin")
   (PartMRUSelector
+    (JUMPER
+      (FullPartName "JUMPER.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (CONN10A
+      (FullPartName "CONN10A.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\CONNECTOR.OLB")
+      (DeviceIndex "0"))
     (RESISTOR
       (FullPartName "RESISTOR.Normal")
       (LibraryName "Z:\LIB\SYMBOLS\DISCRETE.OLB")
@@ -206,10 +213,6 @@
       (DeviceIndex "0"))
     (CONN2
       (FullPartName "CONN2.Normal")
-      (LibraryName "Z:\LIB\SYMBOLS\CONNECTOR.OLB")
-      (DeviceIndex "0"))
-    (JUMPER
-      (FullPartName "JUMPER.Normal")
       (LibraryName "Z:\LIB\SYMBOLS\CONNECTOR.OLB")
       (DeviceIndex "0"))
     (TP
@@ -285,10 +288,6 @@
       (DeviceIndex "0"))
     (LM2733
       (FullPartName "LM2733.Normal")
-      (LibraryName "Z:\LIB\SYMBOLS\IC.OLB")
-      (DeviceIndex "0"))
-    (LM1117
-      (FullPartName "LM1117.Normal")
       (LibraryName "Z:\LIB\SYMBOLS\IC.OLB")
       (DeviceIndex "0")))
   (ISPCBBASICLICENSE "false"))
