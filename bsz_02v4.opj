@@ -144,7 +144,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -4 -29 81 1684 84 698")
-        (Scroll "45 338")
+        (Scroll "0 338")
         (Zoom "110")
         (Occurrence "/"))
       (Path "D:\PROJECTS\CADENCE\BSZ\BSZ_02V4.DSN")
@@ -154,7 +154,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -4 -29 108 1711 112 726")
-        (Scroll "0 299")
+        (Scroll "0 363")
         (Zoom "110")
         (Occurrence "/"))
       (Path "D:\PROJECTS\CADENCE\BSZ\BSZ_02V4.DSN")
@@ -163,8 +163,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -29 135 1738 140 754")
-        (Scroll "566 334")
+        (Placement "44 0 1 -1 -1 -4 -29 135 1738 140 754")
+        (Scroll "566 220")
         (Zoom "146")
         (Occurrence "/"))
       (Path "D:\PROJECTS\CADENCE\BSZ\BSZ_02V4.DSN")
@@ -174,8 +174,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -4 -29 162 1765 168 782")
-        (Scroll "975 845")
-        (Zoom "220")
+        (Scroll "0 571")
+        (Zoom "110")
         (Occurrence "/"))
       (Path "D:\PROJECTS\CADENCE\BSZ\BSZ_02V4.DSN")
       (Schematic "SCHEMATIC1")
@@ -183,9 +183,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -29 189 1792 196 810")
-        (Scroll "0 312")
-        (Zoom "100")
+        (Placement "44 2 3 -1 -1 -4 -29 189 1792 196 810")
+        (Scroll "133 375")
+        (Zoom "146")
         (Occurrence "/"))
       (Path "D:\PROJECTS\CADENCE\BSZ\BSZ_02V4.DSN")
       (Schematic "SCHEMATIC1")
