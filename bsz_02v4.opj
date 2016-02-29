@@ -132,8 +132,7 @@
          "SCHEMATIC1")
       (Path "Design Resources" "d:\projects\cadence\bsz\bsz_02v4.dsn"
          "Design Cache")
-      (Path "Outputs")
-      (Select "Design Resources" "d:\projects\cadence\bsz\bsz_02v4.dsn"))
+      (Path "Outputs"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -154,7 +153,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -4 -29 108 1711 112 726")
-        (Scroll "844 488")
+        (Scroll "215 670")
         (Zoom "146")
         (Occurrence "/"))
       (Path "D:\PROJECTS\CADENCE\BSZ\BSZ_02V4.DSN")
@@ -164,7 +163,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -4 -29 135 1738 140 754")
-        (Scroll "202 413")
+        (Scroll "202 285")
         (Zoom "124")
         (Occurrence "/"))
       (Path "D:\PROJECTS\CADENCE\BSZ\BSZ_02V4.DSN")
@@ -174,8 +173,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -4 -29 162 1765 168 782")
-        (Scroll "0 319")
-        (Zoom "110")
+        (Scroll "-330 0")
+        (Zoom "55")
         (Occurrence "/"))
       (Path "D:\PROJECTS\CADENCE\BSZ\BSZ_02V4.DSN")
       (Schematic "SCHEMATIC1")
@@ -184,7 +183,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -4 -29 189 1792 196 810")
-        (Scroll "-182 153")
+        (Scroll "-182 126")
         (Zoom "73")
         (Occurrence "/"))
       (Path "D:\PROJECTS\CADENCE\BSZ\BSZ_02V4.DSN")
@@ -192,6 +191,10 @@
       (Page "MAN1_PUSK_BI")))
   (MPSSessionName "vershinin")
   (PartMRUSelector
+    (LM5007
+      (FullPartName "LM5007.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\IC.OLB")
+      (DeviceIndex "0"))
     (JUMPER
       (FullPartName "JUMPER.Normal")
       (LibraryName "X:\LIB\SYMBOLS\CONNECTOR.OLB")
@@ -285,10 +288,6 @@
       (DeviceIndex "0"))
     (SN74LVC8T245
       (FullPartName "SN74LVC8T245.Normal")
-      (LibraryName "Z:\LIB\SYMBOLS\IC.OLB")
-      (DeviceIndex "0"))
-    (LM2733
-      (FullPartName "LM2733.Normal")
       (LibraryName "Z:\LIB\SYMBOLS\IC.OLB")
       (DeviceIndex "0")))
   (ISPCBBASICLICENSE "false"))
