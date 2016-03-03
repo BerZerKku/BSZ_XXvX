@@ -132,7 +132,9 @@
          "SCHEMATIC1")
       (Path "Design Resources" "d:\projects\cadence\bsz\bsz_02v4.dsn"
          "Design Cache")
-      (Path "Outputs"))
+      (Path "Outputs")
+      (Select "Design Resources" "d:\projects\cadence\bsz\bsz_02v4.dsn"
+         "SCHEMATIC1" "PWR_DIN"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -163,7 +165,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -4 -29 135 1738 140 754")
-        (Scroll "202 285")
+        (Scroll "202 286")
         (Zoom "124")
         (Occurrence "/"))
       (Path "D:\PROJECTS\CADENCE\BSZ\BSZ_02V4.DSN")
@@ -183,7 +185,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -4 -29 189 1792 196 810")
-        (Scroll "-182 126")
+        (Scroll "-182 0")
         (Zoom "73")
         (Occurrence "/"))
       (Path "D:\PROJECTS\CADENCE\BSZ\BSZ_02V4.DSN")
