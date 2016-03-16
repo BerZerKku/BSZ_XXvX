@@ -167,7 +167,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -4 -29 135 1738 140 754")
-        (Scroll "566 308")
+        (Scroll "0 823")
         (Zoom "146")
         (Occurrence "/"))
       (Path "D:\PROJECTS\CADENCE\BSZ\BSZ_02V4.DSN")
@@ -176,9 +176,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -29 162 1765 168 782")
-        (Scroll "23 260")
-        (Zoom "146")
+        (Placement "44 0 1 -1 -1 -4 -29 162 1765 168 782")
+        (Scroll "-182 0")
+        (Zoom "73")
         (Occurrence "/"))
       (Path "D:\PROJECTS\CADENCE\BSZ\BSZ_02V4.DSN")
       (Schematic "SCHEMATIC1")
@@ -186,15 +186,19 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -29 189 1792 196 810")
-        (Scroll "-182 0")
-        (Zoom "73")
+        (Placement "44 2 3 -1 -1 -4 -29 189 1792 196 810")
+        (Scroll "0 645")
+        (Zoom "146")
         (Occurrence "/"))
       (Path "D:\PROJECTS\CADENCE\BSZ\BSZ_02V4.DSN")
       (Schematic "SCHEMATIC1")
       (Page "MAN1_PUSK_BI")))
   (MPSSessionName "vershinin")
   (PartMRUSelector
+    (RESISTOR
+      (FullPartName "RESISTOR.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
+      (DeviceIndex "0"))
     (SW2
       (FullPartName "SW2.Normal")
       (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
@@ -210,10 +214,6 @@
     (CONN10A
       (FullPartName "CONN10A.Normal")
       (LibraryName "X:\LIB\SYMBOLS\CONNECTOR.OLB")
-      (DeviceIndex "0"))
-    (RESISTOR
-      (FullPartName "RESISTOR.Normal")
-      (LibraryName "Z:\LIB\SYMBOLS\DISCRETE.OLB")
       (DeviceIndex "0"))
     (CONN5
       (FullPartName "CONN5.Normal")
