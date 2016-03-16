@@ -122,7 +122,10 @@
       (Type "Report")
       (DisplayName "compView.dat"))
     (File ".\pcb\bsz.drc"
-      (Type "Report")))
+      (Type "Report"))
+    (File ".\pcb\bsz_02v4.swp"
+      (Type "Report")
+      (DisplayName "BSZ_02V4.swp")))
   (Folder "Referenced Projects")
   (GlobalState
     (FileView
@@ -133,8 +136,7 @@
       (Path "Design Resources" "d:\projects\cadence\bsz\bsz_02v4.dsn"
          "Design Cache")
       (Path "Outputs")
-      (Select "Design Resources" "d:\projects\cadence\bsz\bsz_02v4.dsn"
-         "SCHEMATIC1" "PWR_DIN"))
+      (Select "Design Resources" "d:\projects\cadence\bsz\bsz_02v4.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -155,8 +157,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -4 -29 108 1711 112 726")
-        (Scroll "215 670")
-        (Zoom "146")
+        (Scroll "-182 0")
+        (Zoom "73")
         (Occurrence "/"))
       (Path "D:\PROJECTS\CADENCE\BSZ\BSZ_02V4.DSN")
       (Schematic "SCHEMATIC1")
@@ -164,9 +166,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -29 135 1738 140 754")
-        (Scroll "202 286")
-        (Zoom "124")
+        (Placement "44 0 1 -1 -1 -4 -29 135 1738 140 754")
+        (Scroll "566 308")
+        (Zoom "146")
         (Occurrence "/"))
       (Path "D:\PROJECTS\CADENCE\BSZ\BSZ_02V4.DSN")
       (Schematic "SCHEMATIC1")
@@ -174,9 +176,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -29 162 1765 168 782")
-        (Scroll "-330 0")
-        (Zoom "55")
+        (Placement "44 2 3 -1 -1 -4 -29 162 1765 168 782")
+        (Scroll "23 260")
+        (Zoom "146")
         (Occurrence "/"))
       (Path "D:\PROJECTS\CADENCE\BSZ\BSZ_02V4.DSN")
       (Schematic "SCHEMATIC1")
@@ -193,6 +195,10 @@
       (Page "MAN1_PUSK_BI")))
   (MPSSessionName "vershinin")
   (PartMRUSelector
+    (SW2
+      (FullPartName "SW2.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
+      (DeviceIndex "0"))
     (LM5007
       (FullPartName "LM5007.Normal")
       (LibraryName "X:\LIB\SYMBOLS\IC.OLB")
@@ -287,9 +293,5 @@
     (OSC_SMD
       (FullPartName "OSC_SMD.Normal")
       (LibraryName "Z:\LIB\SYMBOLS\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (SN74LVC8T245
-      (FullPartName "SN74LVC8T245.Normal")
-      (LibraryName "Z:\LIB\SYMBOLS\IC.OLB")
       (DeviceIndex "0")))
   (ISPCBBASICLICENSE "false"))
