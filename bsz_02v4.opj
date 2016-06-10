@@ -130,13 +130,12 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" "d:\projects\cadence\bsz\bsz_02v4.dsn")
-      (Path "Design Resources" "d:\projects\cadence\bsz\bsz_02v4.dsn"
-         "SCHEMATIC1")
-      (Path "Design Resources" "d:\projects\cadence\bsz\bsz_02v4.dsn"
-         "Design Cache")
+      (Path "Design Resources" ".\bsz_02v4.dsn")
+      (Path "Design Resources" ".\bsz_02v4.dsn" "SCHEMATIC1")
+      (Path "Design Resources" ".\bsz_02v4.dsn" "Design Cache")
       (Path "Outputs")
-      (Select "Design Resources" "d:\projects\cadence\bsz\bsz_02v4.dsn"))
+      (Select "Design Resources" ".\bsz_02v4.dsn" "Design Cache"
+         "MOS_P_CHANNEL_INDUCED_1"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -157,8 +156,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -4 -29 108 1711 112 726")
-        (Scroll "0 90")
-        (Zoom "146")
+        (Scroll "-182 0")
+        (Zoom "73")
         (Occurrence "/"))
       (Path "D:\PROJECTS\CADENCE\BSZ\BSZ_02V4.DSN")
       (Schematic "SCHEMATIC1")
@@ -167,7 +166,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -4 -29 135 1738 140 754")
-        (Scroll "566 364")
+        (Scroll "566 759")
         (Zoom "146")
         (Occurrence "/"))
       (Path "D:\PROJECTS\CADENCE\BSZ\BSZ_02V4.DSN")
@@ -177,8 +176,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -4 -29 162 1765 168 782")
-        (Scroll "566 418")
-        (Zoom "146")
+        (Scroll "-182 0")
+        (Zoom "73")
         (Occurrence "/"))
       (Path "D:\PROJECTS\CADENCE\BSZ\BSZ_02V4.DSN")
       (Schematic "SCHEMATIC1")
@@ -187,8 +186,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -4 -29 189 1792 196 810")
-        (Scroll "566 333")
-        (Zoom "146")
+        (Scroll "-182 0")
+        (Zoom "73")
         (Occurrence "/"))
       (Path "D:\PROJECTS\CADENCE\BSZ\BSZ_02V4.DSN")
       (Schematic "SCHEMATIC1")
