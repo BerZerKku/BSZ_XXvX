@@ -130,22 +130,25 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\bsz_02v4.dsn")
-      (Path "Design Resources" ".\bsz_02v4.dsn" "SCHEMATIC1")
-      (Path "Design Resources" ".\bsz_02v4.dsn" "Design Cache")
+      (Path "Design Resources" "d:\projects\cadence\bsz\bsz_02v4.dsn")
+      (Path "Design Resources" "d:\projects\cadence\bsz\bsz_02v4.dsn"
+         "SCHEMATIC1")
+      (Path "Design Resources" "d:\projects\cadence\bsz\bsz_02v4.dsn"
+         "Design Cache")
       (Path "Outputs")
-      (Select "Design Resources" ".\bsz_02v4.dsn" "Design Cache" "DIN96_ABC"))
+      (Select "Design Resources" "d:\projects\cadence\bsz\bsz_02v4.dsn"
+         "SCHEMATIC1" "PWR_DIN"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -29 26 852 16 567"))
+        (Placement "44 0 1 -1 -1 -4 -29 26 852 16 567"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -4 -29 81 1684 84 698")
-        (Scroll "0 338")
+        (Scroll "0 385")
         (Zoom "110")
         (Occurrence "/"))
       (Path "D:\PROJECTS\CADENCE\BSZ\BSZ_02V4.DSN")
@@ -154,9 +157,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -29 108 1711 112 726")
-        (Scroll "-182 0")
-        (Zoom "73")
+        (Placement "44 2 3 -1 -1 -4 -29 108 1711 112 726")
+        (Scroll "-15 44")
+        (Zoom "110")
         (Occurrence "/"))
       (Path "D:\PROJECTS\CADENCE\BSZ\BSZ_02V4.DSN")
       (Schematic "SCHEMATIC1")
@@ -165,8 +168,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -4 -29 135 1738 140 754")
-        (Scroll "844 607")
-        (Zoom "146")
+        (Scroll "913 205")
+        (Zoom "220")
         (Occurrence "/"))
       (Path "D:\PROJECTS\CADENCE\BSZ\BSZ_02V4.DSN")
       (Schematic "SCHEMATIC1")
@@ -175,7 +178,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -4 -29 162 1765 168 782")
-        (Scroll "-182 0")
+        (Scroll "-182 191")
         (Zoom "73")
         (Occurrence "/"))
       (Path "D:\PROJECTS\CADENCE\BSZ\BSZ_02V4.DSN")
@@ -185,21 +188,25 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -4 -29 189 1792 196 810")
-        (Scroll "-182 0")
-        (Zoom "73")
+        (Scroll "437 0")
+        (Zoom "146")
         (Occurrence "/"))
       (Path "D:\PROJECTS\CADENCE\BSZ\BSZ_02V4.DSN")
       (Schematic "SCHEMATIC1")
       (Page "MAN1_PUSK_BI")))
   (MPSSessionName "vershinin")
   (PartMRUSelector
-    (TPS4021x
-      (FullPartName "TPS4021x.Normal")
-      (LibraryName "X:\LIB\SYMBOLS\IC.OLB")
-      (DeviceIndex "0"))
     (RESISTOR
       (FullPartName "RESISTOR.Normal")
       (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (CAPACITOR
+      (FullPartName "CAPACITOR.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (TPS4021x
+      (FullPartName "TPS4021x.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\IC.OLB")
       (DeviceIndex "0"))
     (SW2
       (FullPartName "SW2.Normal")
@@ -235,10 +242,6 @@
       (DeviceIndex "0"))
     (SHOTTKY
       (FullPartName "SHOTTKY.Normal")
-      (LibraryName "Z:\LIB\SYMBOLS\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (CAPACITOR
-      (FullPartName "CAPACITOR.Normal")
       (LibraryName "Z:\LIB\SYMBOLS\DISCRETE.OLB")
       (DeviceIndex "0"))
     (AD7894ARZ
