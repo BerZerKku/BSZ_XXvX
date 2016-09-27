@@ -130,14 +130,11 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" "d:\projects\cadence\bsz\bsz_02v4.dsn")
-      (Path "Design Resources" "d:\projects\cadence\bsz\bsz_02v4.dsn"
-         "SCHEMATIC1")
-      (Path "Design Resources" "d:\projects\cadence\bsz\bsz_02v4.dsn"
-         "Design Cache")
+      (Path "Design Resources" ".\bsz_02v4.dsn")
+      (Path "Design Resources" ".\bsz_02v4.dsn" "SCHEMATIC1")
+      (Path "Design Resources" ".\bsz_02v4.dsn" "Design Cache")
       (Path "Outputs")
-      (Select "Design Resources" "d:\projects\cadence\bsz\bsz_02v4.dsn"
-         "SCHEMATIC1" "INPUTS"))
+      (Select "Design Resources" ".\bsz_02v4.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -148,7 +145,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -4 -29 81 1684 84 698")
-        (Scroll "218 343")
+        (Scroll "0 343")
         (Zoom "110")
         (Occurrence "/"))
       (Path "D:\PROJECTS\CADENCE\BSZ\BSZ_02V4.DSN")
@@ -157,9 +154,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 0 864 -4 -29 108 1711 112 726")
-        (Scroll "566 1030")
-        (Zoom "146")
+        (Placement "44 0 1 0 864 -4 -29 108 1711 112 726")
+        (Scroll "-182 0")
+        (Zoom "73")
         (Occurrence "/"))
       (Path "D:\PROJECTS\CADENCE\BSZ\BSZ_02V4.DSN")
       (Schematic "SCHEMATIC1")
@@ -168,7 +165,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -4 -29 135 1738 140 754")
-        (Scroll "243 340")
+        (Scroll "0 437")
         (Zoom "110")
         (Occurrence "/"))
       (Path "D:\PROJECTS\CADENCE\BSZ\BSZ_02V4.DSN")
@@ -177,9 +174,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -29 162 1765 168 782")
-        (Scroll "1551 1349")
-        (Zoom "292")
+        (Placement "44 2 3 -1 -1 -4 -29 162 1765 168 782")
+        (Scroll "-321 135")
+        (Zoom "73")
         (Occurrence "/"))
       (Path "D:\PROJECTS\CADENCE\BSZ\BSZ_02V4.DSN")
       (Schematic "SCHEMATIC1")
@@ -188,7 +185,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -4 -29 189 1792 196 810")
-        (Scroll "566 315")
+        (Scroll "566 990")
         (Zoom "146")
         (Occurrence "/"))
       (Path "D:\PROJECTS\CADENCE\BSZ\BSZ_02V4.DSN")
@@ -196,6 +193,10 @@
       (Page "MAN1_PUSK_BI")))
   (MPSSessionName "vershinin")
   (PartMRUSelector
+    (STAB
+      (FullPartName "STAB.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
+      (DeviceIndex "0"))
     (RESISTOR
       (FullPartName "RESISTOR.Normal")
       (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
@@ -291,8 +292,5 @@
     (LMV431AIM5
       (FullPartName "LMV431AIM5.Normal")
       (LibraryName "Z:\LIB\SYMBOLS\IC.OLB")
-      (DeviceIndex "0"))
-    (VCC
-      (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\_SYMBOLS.OLB")
       (DeviceIndex "0")))
   (ISPCBBASICLICENSE "false"))
