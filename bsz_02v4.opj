@@ -135,7 +135,8 @@
          "SCHEMATIC1")
       (Path "Design Resources" "d:\projects\cadence\bsz\bsz_02v4.dsn"
          "Design Cache")
-      (Path "Outputs"))
+      (Path "Outputs")
+      (Select "Design Resources" "d:\projects\cadence\bsz\bsz_02v4.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -165,9 +166,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -29 135 1738 140 754")
-        (Scroll "1285 572")
-        (Zoom "220")
+        (Placement "44 2 3 -1 -1 -4 -29 135 1738 140 754")
+        (Scroll "566 504")
+        (Zoom "146")
         (Occurrence "/"))
       (Path "D:\PROJECTS\CADENCE\BSZ\BSZ_02V4.DSN")
       (Schematic "SCHEMATIC1")
@@ -186,7 +187,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -4 -29 189 1792 196 810")
-        (Scroll "566 990")
+        (Scroll "566 838")
         (Zoom "146")
         (Occurrence "/"))
       (Path "D:\PROJECTS\CADENCE\BSZ\BSZ_02V4.DSN")
@@ -194,16 +195,20 @@
       (Page "MAN1_PUSK_BI")))
   (MPSSessionName "vershinin")
   (PartMRUSelector
+    (CAPACITOR
+      (FullPartName "CAPACITOR.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (TRACO_TMH_D
+      (FullPartName "TRACO_TMH_D.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\IC.OLB")
+      (DeviceIndex "0"))
     (STAB
       (FullPartName "STAB.Normal")
       (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
       (DeviceIndex "0"))
     (RESISTOR
       (FullPartName "RESISTOR.Normal")
-      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (CAPACITOR
-      (FullPartName "CAPACITOR.Normal")
       (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
       (DeviceIndex "0"))
     (TPS4021x
@@ -289,9 +294,5 @@
     (DIODE
       (FullPartName "DIODE.Normal")
       (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (LMV431AIM5
-      (FullPartName "LMV431AIM5.Normal")
-      (LibraryName "Z:\LIB\SYMBOLS\IC.OLB")
       (DeviceIndex "0")))
   (ISPCBBASICLICENSE "false"))
