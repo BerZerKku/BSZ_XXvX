@@ -130,11 +130,12 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\bsz_02v4.dsn")
-      (Path "Design Resources" ".\bsz_02v4.dsn" "SCHEMATIC1")
-      (Path "Design Resources" ".\bsz_02v4.dsn" "Design Cache")
-      (Path "Outputs")
-      (Select "Design Resources" ".\bsz_02v4.dsn"))
+      (Path "Design Resources" "d:\projects\cadence\bsz\bsz_02v4.dsn")
+      (Path "Design Resources" "d:\projects\cadence\bsz\bsz_02v4.dsn"
+         "SCHEMATIC1")
+      (Path "Design Resources" "d:\projects\cadence\bsz\bsz_02v4.dsn"
+         "Design Cache")
+      (Path "Outputs"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -165,8 +166,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -4 -29 135 1738 140 754")
-        (Scroll "0 437")
-        (Zoom "110")
+        (Scroll "1285 572")
+        (Zoom "220")
         (Occurrence "/"))
       (Path "D:\PROJECTS\CADENCE\BSZ\BSZ_02V4.DSN")
       (Schematic "SCHEMATIC1")
@@ -174,8 +175,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -29 162 1765 168 782")
-        (Scroll "-321 135")
+        (Placement "44 0 1 -1 -1 -4 -29 162 1765 168 782")
+        (Scroll "-182 0")
         (Zoom "73")
         (Occurrence "/"))
       (Path "D:\PROJECTS\CADENCE\BSZ\BSZ_02V4.DSN")
