@@ -141,7 +141,7 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -29 26 852 16 567"))
+        (Placement "44 2 3 -1 -1 -4 -29 26 852 16 567"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
@@ -157,7 +157,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 0 864 -4 -29 108 1711 112 726")
-        (Scroll "261 721")
+        (Scroll "566 810")
         (Zoom "146")
         (Occurrence "/"))
       (Path "D:\PROJECTS\CADENCE\BSZ\BSZ_02V4.DSN")
@@ -166,8 +166,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -29 162 1765 168 782")
-        (Scroll "507 625")
+        (Placement "44 0 1 -1 -1 -4 -29 162 1765 168 782")
+        (Scroll "0 539")
         (Zoom "146")
         (Occurrence "/"))
       (Path "D:\PROJECTS\CADENCE\BSZ\BSZ_02V4.DSN")
@@ -177,8 +177,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -4 -29 189 1792 196 810")
-        (Scroll "658 599")
-        (Zoom "152")
+        (Scroll "-182 0")
+        (Zoom "73")
         (Occurrence "/"))
       (Path "D:\PROJECTS\CADENCE\BSZ\BSZ_02V4.DSN")
       (Schematic "SCHEMATIC1")
@@ -187,20 +187,20 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -4 -29 135 1873 140 481")
-        (Scroll "1122 1499")
-        (Zoom "224")
+        (Scroll "375 1158")
+        (Zoom "152")
         (Occurrence "/"))
       (Path "D:\PROJECTS\CADENCE\BSZ\BSZ_02V4.DSN")
       (Schematic "SCHEMATIC1")
       (Page "PWR_DIN")))
   (MPSSessionName "vershinin")
   (PartMRUSelector
-    (RESISTOR
-      (FullPartName "RESISTOR.Normal")
-      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
-      (DeviceIndex "0"))
     (CAPACITOR
       (FullPartName "CAPACITOR.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (RESISTOR
+      (FullPartName "RESISTOR.Normal")
       (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
       (DeviceIndex "0"))
     (TRACO_TMH_D
