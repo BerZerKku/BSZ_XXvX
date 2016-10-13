@@ -141,7 +141,7 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -29 26 852 16 567"))
+        (Placement "44 0 1 -1 -1 -4 -29 26 852 16 567"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
@@ -157,7 +157,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 0 864 -4 -29 108 1711 112 726")
-        (Scroll "566 810")
+        (Scroll "0 101")
         (Zoom "146")
         (Occurrence "/"))
       (Path "D:\PROJECTS\CADENCE\BSZ\BSZ_02V4.DSN")
@@ -186,9 +186,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -29 135 1873 140 481")
-        (Scroll "375 1158")
-        (Zoom "152")
+        (Placement "44 2 3 -1 -1 -4 -29 135 1873 140 481")
+        (Scroll "2061 760")
+        (Zoom "304")
         (Occurrence "/"))
       (Path "D:\PROJECTS\CADENCE\BSZ\BSZ_02V4.DSN")
       (Schematic "SCHEMATIC1")
