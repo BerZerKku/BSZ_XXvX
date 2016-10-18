@@ -187,8 +187,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -4 -29 135 1873 140 481")
-        (Scroll "2061 760")
-        (Zoom "304")
+        (Scroll "568 163")
+        (Zoom "152")
         (Occurrence "/"))
       (Path "D:\PROJECTS\CADENCE\BSZ\BSZ_02V4.DSN")
       (Schematic "SCHEMATIC1")
