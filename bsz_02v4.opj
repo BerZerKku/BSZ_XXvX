@@ -166,8 +166,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -29 162 1765 168 782")
-        (Scroll "0 539")
+        (Placement "44 2 3 -1 -1 -4 -29 162 1765 168 782")
+        (Scroll "456 0")
         (Zoom "146")
         (Occurrence "/"))
       (Path "D:\PROJECTS\CADENCE\BSZ\BSZ_02V4.DSN")
@@ -186,7 +186,7 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -29 135 1873 140 481")
+        (Placement "44 0 1 -1 -1 -4 -29 135 1873 140 481")
         (Scroll "568 163")
         (Zoom "152")
         (Occurrence "/"))
